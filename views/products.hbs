@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Продукты</title>
+	<meta charset="utf-8" />
+</head>
+<body>
+    {{> top}}
+	<h1>Предоставляемые товары</h1>
+	{{#each cart}}
+        <li>{{this}}</li>
+    {{/each}}
+    {{> footer}}
+</body>
+<html>
